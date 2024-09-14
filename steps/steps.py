@@ -2,6 +2,18 @@ from selenium import webdriver
 from selenium.webdriver.common.by import By
 import time
 from behave import given, when, then
+from selenium import webdriver
+from selenium.webdriver.chrome.options import Options
+
+# Example WebDriver setup for headless mode
+chrome_options = Options()
+chrome_options.add_argument("--headless")  # Run Chrome in headless mode
+chrome_options.add_argument("--no-sandbox")  # Bypass OS security model
+chrome_options.add_argument("--disable-dev-shm-usage")  # Overcome limited resource problems
+chrome_options.add_argument("--disable-gpu")  # Disable GPU hardware acceleration
+
+driver = webdriver.Chrome(options=chrome_options)
+
 
 # Initialize the WebDriver
 driver = webdriver.Chrome()
