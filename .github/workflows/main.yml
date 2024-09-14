@@ -24,12 +24,7 @@ jobs:
         with:
           python-version: '3.x'  # Specify Python version
 
-     # Install Chrome and ChromeDriver
-      - name: Install dependencies
-        run: sudo apt-get install -y google-chrome-stable
-
-      - name: Install ChromeDriver
-        run: sudo apt-get install -y chromedriver
+ 
 
       # Step 3: Install dependencies (Selenium, Behave, etc.)
       - name: Install dependencies
