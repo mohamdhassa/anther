@@ -1,2 +1,3 @@
 selenium==4.0.0  # Selenium for browser automation
 behave==1.2.6    # Behave for BDD testing
+webdriver-manager==3.8.5
