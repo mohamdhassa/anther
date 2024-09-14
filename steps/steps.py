@@ -2,7 +2,7 @@ from selenium import webdriver
 from selenium.webdriver.common.by import By
 import time
 from behave import given, when, then
-from selenium import webdriver
+
 from selenium.webdriver.chrome.options import Options
 
 # Example WebDriver setup for headless mode
