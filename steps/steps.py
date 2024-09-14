@@ -12,6 +12,7 @@ chrome_options.add_argument("--no-sandbox")  # Bypass OS security model
 chrome_options.add_argument("--disable-dev-shm-usage")  # Overcome limited resource problems
 chrome_options.add_argument("--disable-gpu")  # Disable GPU hardware acceleration
 
+
 driver = webdriver.Chrome(options=chrome_options)
 
 
