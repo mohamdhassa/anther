@@ -33,4 +33,4 @@ jobs:
 
       # Step 4: Run Behave tests
       - name: Run Behave tests
-        run: python -m behave   # Execute the Behave tests
+        run: behave  # Execute the Behave tests
